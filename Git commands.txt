@@ -1,0 +1,31 @@
+ git init
+ git config user.name "Bangalore"
+git config user.email "bangalore@gmail.com"
+<Make changes in the file in the folder>
+ git status
+ git add myFile.txt
+git commit -m "Bangalore first version" 
+git status
+<Make changes in the file in the folder>
+git add .
+git status
+git commit -m "Bangalore second version"
+git status
+<Make changes in the file in the folder>
+git add .
+git status
+git commit -m "Bangalore third version"
+ git status
+git add .
+git status
+git status
+git log
+git checkout c9dea71373246cd6f8aa2b0cbad6dc5bfa96de37
+git log
+<Check the file in the folder>
+
+
+To revert back to third version : 
+git checkout master
+ git log
+git checkout bb0d0959896add39dff363e2cc083baf2f0eead9
