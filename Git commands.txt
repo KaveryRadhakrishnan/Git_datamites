@@ -29,3 +29,21 @@ To revert back to third version :
 git checkout master
  git log
 git checkout bb0d0959896add39dff363e2cc083baf2f0eead9
+
+Git HUb
+Bangalore:
+ 
+git remote add origin https://github.com/KaveryRadhakrishnan/Git_datamites#git_datamites
+
+git push origin master #(files pushed inside github)
+
+git remote remove origin
+
+Chennai Bash UI
+
+git init
+git config user.name "Chennai"
+git config user.email "chennai@gmail.com"
+git status
+git remote add origin https://github.com/KaveryRadhakrishnan/Git_datamites.git
+git pull origin master
